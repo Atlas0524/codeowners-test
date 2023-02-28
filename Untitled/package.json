@@ -1,0 +1,38 @@
+{
+  "name": "codeowners-audit",
+  "version": "1.0.0",
+  "description": "A tool for auditing CODEOWNERS files",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.purestorage.com/scm/ir/main.git",
+    "directory": "tools/codeowners"
+  },
+  "bugs": {
+    "url": "https://purestorage.slack.com/archives/C01B8R8TZT2"
+  },
+  "main": "codeowners.js",
+  "types": "codeowners.d.ts",
+  "bin": {
+    "codeowners": "index.js"
+  },
+"scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "codeowners"
+  ],
+  "dependencies": {
+    "@nodelib/fs.walk": "1.2.8",
+    "commander": "9.3.0",
+    "find-up": "^2.1.0",
+    "ignore": "^3.3.10",
+    "is-directory": "^0.3.1",
+    "lodash.intersection": "4.4.0",
+    "lodash.maxby": "4.6.0",
+    "lodash.padend": "4.6.1",
+    "true-case-path": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
