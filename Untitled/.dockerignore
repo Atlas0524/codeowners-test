@@ -1,7 +1,0 @@
-# Don't add these files and directories to the codeowners container image
-# Files
-codeowners.sh
-docker-compose.yml
-Dockerfile
-README.md
-# Directories
