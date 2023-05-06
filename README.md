@@ -5,5 +5,5 @@
 ## How to use - easy mode using preconfigured environment in it's own container
 
 ```sh
-./codeowners.sh
+. ./codeowners.sh
 ```
