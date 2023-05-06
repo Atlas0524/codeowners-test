@@ -1,4 +1,4 @@
-CONTAINER_NAME=codeowners_codeowners_1
+CONTAINER_NAME=codeowners-codeowners-1
 CONTAINER_APP_DIR=/codeowners
 PARENT_PATH=$PWD
 cd tools/codeowners
